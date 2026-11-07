@@ -2,13 +2,13 @@ name: CraftableEnchantments
 
 author: SchnTgaiSpock
 
-description: A utility addon that adds a toggleable WAILA (What Am I Looking At) HUD for placed Slimefun items.
+description: A Slimefun addon that adds Ancient Altar recipes to craft magic tomes and vanilla enchanted books.
 
 main: io.github.schntgaispock.craftableenchantments.CraftableEnchantments
 
 website: https://github.com/SchnTgaiSpock/CraftableEnchantments
 
-version: ${project.version}
+version: ${version}
 
 api-version: 1.14
 

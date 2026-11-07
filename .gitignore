@@ -11,3 +11,11 @@ dependency-reduced-pom.xml
 .DS_Store
 eclipse-formatter.xml
 *.py
+.workbuddy/
+# Added by mc-plugin-github-automation
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!lib/*.jar
+run/
+server/

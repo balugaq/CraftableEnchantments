@@ -1,0 +1,25 @@
+# 原版本记录：spigot-api 1.19-R0.1-SNAPSHOT、Slimefun4 38953fe13a（JitPack 已 404，换 2025.1.2）、InfinityLib 1.3.10、bstats 3.0.0、lombok 1.18.34→1.18.48
+[versions]
+spigot-api = "1.19-R0.1-SNAPSHOT"
+slimefun4 = "2025.1.2"
+infinity-lib = "1.3.10"
+bstats = "3.2.1"
+javax-annotation = "1.3.2"
+jsr305 = "3.0.2"
+lombok = "1.18.48"
+
+shadow = "9.6.1"
+run-paper = "3.1.0"
+
+[libraries]
+spigot-api = { module = "org.spigotmc:spigot-api", version.ref = "spigot-api" }
+slimefun4 = { module = "com.github.SlimefunGuguProject:Slimefun4", version.ref = "slimefun4" }
+infinity-lib = { module = "com.github.SlimefunGuguProject:InfinityLib", version.ref = "infinity-lib" }
+bstats = { module = "org.bstats:bstats-bukkit", version.ref = "bstats" }
+javax-annotation = { module = "javax.annotation:javax.annotation-api", version.ref = "javax-annotation" }
+jsr305 = { module = "com.google.code.findbugs:jsr305", version.ref = "jsr305" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }
